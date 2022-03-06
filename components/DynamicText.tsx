@@ -12,7 +12,7 @@ const DynamicText = forwardRef((_, ref) => {
     changeValue
   }));
 
-  return <Text>{value}</Text>;
+  return <Text maxW={250}>{value}</Text>;
 });
 
 export default DynamicText;
