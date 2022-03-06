@@ -19,7 +19,6 @@ const Home = () => {
                 <link rel="icon" href="/favicon.ico"/>
             </Head>
 
-            <NavBar/>
 
             <Box className={styles.main}>
                 <DynamicText ref={ref}/>
